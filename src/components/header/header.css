@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding: top 7rem;
+    padding-top: 3rem;
     overflow: hidden;
 }
 
@@ -8,17 +8,18 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+   
 }
 
 /*CTA*/
 .cta{
-    margin: 2.5rem;
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 /*SOCIALS*/
-.header-social{
+.header-socials{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +42,8 @@ header{
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: calc(50%-11rem);
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -57,3 +59,24 @@ header{
     font-size: 0.9rem;
 
 }
+
+/* MEDIA QUERY (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    header{ 
+     height: 68vh;
+    }
+  
+  }
+
+  /* MEDIA QUERY (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header-socials, .scroll-down{
+        display: none;
+    }
+   
+  }
