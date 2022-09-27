@@ -3,7 +3,23 @@ import "./contact.css"
 import {MdOutlineEmail} from 'react-icons/md'
 import {TbBrandTelegram} from 'react-icons/tb'
 
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_7w1s05k', 'template_f9vdvw6', form.current, 'Qw21RTpTfzToJvVXP')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
   return (
     <section id='contact'>
     <h5>Get in Touch</h5>
@@ -32,7 +48,7 @@ function Contact() {
         </article>
          */}
 
-         <form action="">
+         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='your full name' required/>
           <input type="email" name='email' placeholder='your email' required />
           <textarea name="message" rows="7" placeholder='your message' required></textarea>
