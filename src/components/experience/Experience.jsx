@@ -95,6 +95,37 @@ function Experience() {
                   <small className="text-light">Intermediate</small>
                </div>
               </article>
+              
+            </div>
+        </div>
+        {/************** */}
+        <div className="experience-backend">
+            <h3>Other Skills</h3>
+            <div className="experience-content">
+              <article className='experience-details'>
+                <AiFillCheckCircle className='experience-details-icon' />
+                <div>
+                <h4>Git and GitHub</h4>
+                  <small className="text-light"></small>
+                </div>
+                
+              </article>
+              <article className='experience-details'>
+                <AiFillCheckCircle className='experience-details-icon' />
+                <div>
+                <h4>REST API</h4>
+                  <small className="text-light"></small>
+                </div>
+              </article>
+              <article className='experience-details'>
+                <AiFillCheckCircle className='experience-details-icon' />
+                <div>
+                <h4>NPM</h4>
+                  <small className="text-light"></small>
+                </div>
+              </article>
+              
+              
             </div>
         </div>
         </div>
