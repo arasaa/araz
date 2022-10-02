@@ -37,7 +37,7 @@ function Contact() {
           <TbBrandTelegram className='contact-option-icon'/>
           <h4>Telegram</h4>
           <h5>telegram</h5>
-          <a href="#" target="blank">write me</a>
+          <a href="https://web.telegram.org/k/" target="blank">write me</a>
         </article>
         {/**
          *   <article className="contact-option">
