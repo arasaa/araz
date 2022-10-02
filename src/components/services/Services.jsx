@@ -17,7 +17,46 @@ const Services = () => {
               <li>
                 <AiOutlineCheck className='service-list-icon' />
                 <p>
-                  Lorem ipsum dolor
+                  Saas UI Design
+                  </p>
+              </li>
+              <li>
+                <AiOutlineCheck className='service-list-icon' />
+                <p>
+                  Responsive Web Design
+                  </p>
+              </li>
+              <li>
+                <AiOutlineCheck className='service-list-icon' />
+                <p>
+                  Website Redesign
+                  </p>
+              </li>
+              <li>
+                <AiOutlineCheck className='service-list-icon' />
+                <p>
+                  Design graphic user interface elements: menus, tabs and widgets
+                  </p>
+              </li>
+              <li>
+                <AiOutlineCheck className='service-list-icon' />
+                <p>
+                  Build page navigation buttons and search fields
+                  </p>
+  </li>
+            </ul>
+          </article>
+           {/** content creation */}
+           <article >
+            <div className="service-head">
+              <h3>CONTENT CREATION</h3>
+            </div>
+            {/** 
+            <ul className="service-list">
+              <li>
+                <AiOutlineCheck className='service-list-icon' />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
               </li>
               <li>
@@ -45,6 +84,7 @@ const Services = () => {
                   </p>
               </li>
             </ul>
+            */}
           </article>
           {/** WEB DEVELOPMET */}
           <article className='service'>
@@ -55,79 +95,31 @@ const Services = () => {
               <li>
                 <AiOutlineCheck className='service-list-icon' />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ongoing Website Maintenance
                   </p>
               </li>
               <li>
                 <AiOutlineCheck className='service-list-icon' />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                WordPress Support
                   </p>
               </li>
               <li>
                 <AiOutlineCheck className='service-list-icon' />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Hosting
                   </p>
               </li>
               <li>
                 <AiOutlineCheck className='service-list-icon' />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Database creation, integration, and management
                   </p>
               </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet 
-                  </p>
-              </li>
+             
             </ul>
           </article>
-          {/** content creation */}
-          <article className='service'>
-            <div className="service-head">
-              <h3>CONTENT CREATION</h3>
-            </div>
-            <ul className="service-list">
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-              <li>
-                <AiOutlineCheck className='service-list-icon' />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-              </li>
-            </ul>
-          </article>
+         
       </div>
     </section>
   )

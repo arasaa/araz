@@ -37,10 +37,10 @@ function About() {
               <small>2+</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatibus laborum itaque quisquam ab maxime laboriosam
-             totam inventore debitis soluta delectus?
+          <p className='about-discription'>
+           Born in 1991 in Dirbasiya, Syria &amp; based in Berlin <br />
+            a Full-Stack Web Developer <br />
+            I design and code beautifully simple things &amp; connecting them with the Server.
           </p>
           <a href='#contact' className='btn btn-primary'>let's Talk</a>
         </div>
