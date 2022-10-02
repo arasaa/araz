@@ -41,6 +41,7 @@ const client =[
 ]
 const Testimonial = () => {
   return (
+    <div className="hide-contnet">
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
@@ -70,6 +71,7 @@ const Testimonial = () => {
     
       </Swiper> 
     </section>
+    </div>
   )
 }
 
