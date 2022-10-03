@@ -19,10 +19,10 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer-socials">
-          <a href=""><FaFacebookF /></a>
-          <a href=""><AiFillLinkedin /></a>
-          <a href=""><BsTwitter /></a>
-          <a href=""><FaInstagramSquare /></a>
+          {/* <a href=""><FaFacebookF /></a> */}
+          <a href="https://www.linkedin.com/in/araz-saydu-594940198/" target="blank"><AiFillLinkedin /></a>
+          <a href="https://twitter.com/ArazSaydu" target="blank"><BsTwitter /></a>
+          {/* <a href=""><FaInstagramSquare /></a> */}
         </div>
     </footer>
   )
